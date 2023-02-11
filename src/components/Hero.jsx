@@ -23,12 +23,14 @@ const Hero = () => {
     <div className="flex-auto">
       <div className="md:text-left text-center">
         <h1 className="md:text-5xl md:text-left text-2xl text-center md:leading-normal leading-10 text-white font-bold">
-          <span className="text-blue-400 md:text-6xl text-5xl">Hello! <br /></span>
-          My name is <span>Pranav Undre</span>
+          <span className="text-blue-400 md:text-6xl text-5xl">Hello! 👋<br /></span>
+          My name is <span>Pranav</span>
         </h1>
         <h4 className="md:text-2xl md:leading-normal leading-5 mt-4 text-base text-gray-400 font-light">Web Developer | Competitive Programmer</h4>
         
-        <button className="bg-blue-500 md:mx-0 mx:auto px-6 py-3 rounded-full mt-8 md:text-xl text-base mx-auto flex items-center">Say Hi 👋</button>
+        <a href="src/assets/Pranav Undre Resume.pdf" target="new">
+          <button className="bg-blue-500 md:mx-0 mx:auto px-6 py-3 rounded-full mt-8 md:text-xl text-base mx-auto flex items-center">Download Resume</button>
+        </a>
         
         <div className="flex gap-6 md:gap-8 mt-8 text-2xl md:text-4xl text-gray-600 items-center md:justify-start justify-center">
             {
